@@ -1,3 +1,8 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+print("Escape Room!\n\nHow to play: \n\nYou will find yourself in a room with a door, find the key to get out.")
+print("You will start with 3 lifes, whenever you reach 0 lifes, you're dead and GAME OVER.\n\n")
+
+name = input("Enter your name to start the game:\n")
+print(f'Welcome to the Escape Room, {name}!')
+
+
+
